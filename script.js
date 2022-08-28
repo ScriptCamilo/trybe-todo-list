@@ -29,6 +29,7 @@ function selectTask(e) {
   }
 
   if (event !== previous) event.classList.add('selected');
+  // event.classList.add('selected');
 }
 
 function completeTask(e) {
